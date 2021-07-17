@@ -10,7 +10,7 @@ Splitting the graph into multiple pieces, allocating them to separate CPU proces
 
 The repository contains a collection of 9 datasets which were tested and can be used for experiments. [1-9]
 
-![Alt text](./datasets.png?raw=true "Shell Output")
+![Alt text](./datasets.png?raw=true "Datasets")
 
 ### Experimental Setup
 
@@ -42,9 +42,9 @@ As the solution uses mutiple-cores, each process has an independent memory space
 
 Another issue is when the graph is too large, the internal pickling module cannot pickle a file larger than N Bytes, which subsequently throws an exception and stops the computation half-way through. In this case, it is possible to sub-sample the graph down to K nodes before the computation and repeat the workflow on the subsampled graph.
 
-### Statement
+### In case you use this code
 
-Please quote this repository if you are referencing this code in your work. Released under MIT licence.
+Please reference this repository if you are using this code in your work. Released under MIT licence.
 
 ### References
 
