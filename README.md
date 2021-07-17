@@ -8,7 +8,7 @@ Computation of NetworkX Graph Heuristics for Link Prediction uses one CPU core b
 
 Splitting the graph into multiple pieces, allocating them to separate CPU processess cuts down the processing to managable time. The multi-core workflow in this setup cuts the processing of the 'BlogCatalog' dataset [1] (N = 10,312, E = 333,983) down to 10 minutes compared to a single-core workflow which ran for 101 minutes.
 
-The repository contains a collection of 9 datasets which were tested and can be used for experiments.
+The repository contains a collection of 9 datasets which were tested and can be used for experiments. [1-9]
 
 ![Alt text](./datasets.png?raw=true "Shell Output")
 
